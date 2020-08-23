@@ -12,7 +12,7 @@ Empresa - Copyright -Nutratta Nutrição Animal.
 @author Davidson Clayton
 @since 18/05/2018
 @version P11 R8
-analise de dados
+analise de dados 23/08/2020
 */
 //--------------------------------------------------------------------------
 User  Function ZZIMPTBL()
