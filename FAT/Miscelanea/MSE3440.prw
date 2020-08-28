@@ -19,7 +19,7 @@ Empresa - Copyright -Nutratta Nutrição Animal.
 @author Davidson Clayton
 @since 28/03/2017
 @version P11 R8
-teste Patrick
+teste Patrick retirando
 /*/
 //-------------------------------------------------------------------------------------------------------  
 User Function MSE3440()   
