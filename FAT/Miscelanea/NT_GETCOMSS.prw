@@ -9,7 +9,6 @@ Data------: 13/05/2019 -Utilizado na revitalização de comissão 2019.
 ========================================================================================================================
 Descrição-: Executado o calculo da comissão na efetivação do pre-pedido e gravação do pedido de vendas
 Uso-------: Realiza o calculo de comissão e devolve o resultado de acordo com os parametros usados.
-apresentação git hub
 ========================================================================================================================
 */   
 User Function NT_GETCOMSS(_cFil,_cCodTab,_cProduto,_cCond,_cVendedor,_nQuant,_nPrcUnit,_nValFrete,_dEmissao,_dDtata1,_dDtata2,_dDtata3,_dDtata4,_cSitTrib,_nOpc)
