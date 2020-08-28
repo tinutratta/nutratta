@@ -632,12 +632,20 @@ ElseIf  Dtos(_dEmissao) >= '20200421'  .And. Dtos(_dEmissao) <= '20200531'
 	_cTAbZZs:="ZB9"
 	_cTipVend:='7'
 	
-ElseIf  Dtos(_dEmissao) >= '20200601'    
+ElseIf  Dtos(_dEmissao) >= '20200601' .And. Dtos(_dEmissao) <= '20200630'    
 	//------------------------------------------------------------------------------------------------------
 	//Rotina para calcular a comissão de cada produto do pedido de vendas.-B10. 
 	// Usado: 5-7 - Z
 	//------------------------------------------------------------------------------------------------------		
 	_cTAbZZs:="B10"
+	_cTipVend:='7'	
+
+ElseIf  Dtos(_dEmissao) >= '20200701'   
+	//------------------------------------------------------------------------------------------------------
+	//Rotina para calcular a comissão de cada produto do pedido de vendas.-B11. 
+	// Usado: 5-7 - Z
+	//------------------------------------------------------------------------------------------------------		
+	_cTAbZZs:="B11"
 	_cTipVend:='7'	
 EndIf 
 
