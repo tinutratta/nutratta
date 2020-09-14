@@ -4,19 +4,18 @@
 		{
 			"type": "totvs_language_debug",
 			"request": "launch",
-			"name": "LAB",
+			"name": "LOCAL",
 			"program": "${command:AskForProgramName}",
-			"smartclientBin": "D:\\NUTRATTA\\PROTHEUS\\smartclient_Lab\\smartclient.exe",
+			"smartclientBin": "D:\\PROTHEUS_LOCAL\\protheus\\bin\\smartclient_Local\\smartclient.exe",
 			"isMultiSession": true,
 			"enableTableSync": true
 		},
 		{
 			"type": "totvs_language_debug",
 			"request": "launch",
-			"name": "12.15",
+			"name": "NUTLAB",
 			"program": "${command:AskForProgramName}",
-			"cwb": "${workspaceFolder}",
-			"smartclientBin": "D:\\NUTRATTA\\PROTHEUS\\smartclient_12_25\\smartclient.exe",
+			"smartclientBin": "D:\\NUTRATTA\\PROTHEUS\\smartclient_Lab\\smartclient.exe",
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
@@ -45,5 +44,5 @@
 			"description": ""
 		}
 	],
-	"lastProgramExecuted": "SIGAFIN"
+	"lastProgramExecuted": "SIGAMDI"
 }
