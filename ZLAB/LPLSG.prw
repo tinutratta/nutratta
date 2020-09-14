@@ -12,5 +12,6 @@
     /*/
 User Function LPLSG()
  
+ Alert("teste")
     
 Return 
