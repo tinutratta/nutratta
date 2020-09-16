@@ -30,7 +30,7 @@ If dbSeek(Padr(xFilial(_cTabela),4)+Padr(_cTipVend,1))
 	_lExist	:=	.T.   
 Else
 	
-	Aviso("Atenção","Tipo de vendedor não encontrado!!! "+chr(13)+chr(10)+"Tabela: "+_cTabela+"  - Favor Verificar.",{"Voltar"},2) 
+	Aviso("Atenção","Tipo de vendidor não encontrado!!! "+chr(13)+chr(10)+"Tabela: "+_cTabela+"  - Favor Verificar.",{"Voltar"},2) 
 	_lExist	:= .F.  
 EndIf
                          
